@@ -11,12 +11,34 @@
 }
 
 #myname {
-
-	color: white;
+	color: black;
 	font-size: 200px;
 	padding-left: 350px;
 }
 
+#about {
+	color: #00FF00;
+	text-align: center;
+	float: left;
+	left: 550px;
+	position: absolute;
+	font-size: 50px;
+}
+
+#projects {
+	color: #00FF00;
+	text-align: center;
+	float: right;
+	right: 600px;
+	position: absolute;
+	font-size: 50px;
+}
+
+a {
+	text-decoration: none;
+		color: black;
+}
+
 body {
-	background-color:black;
+	background-color:white;
 }
