@@ -12,8 +12,11 @@
 
 #myname {
 	color: black;
-	font-size: 200px;
-	padding-left: 350px;
+	font-size: 180px;
+	padding-left: 250px;
+	font-family: Courier New, Courier;
+	text-shadow: 5px 5px 5px grey;
+	position: relative;
 }
 
 #about {
@@ -32,6 +35,15 @@
 	right: 600px;
 	position: absolute;
 	font-size: 50px;
+}
+
+#movingBlock {
+	height: 50px;
+	width: 50px;
+	background: #00FF00;
+	position: relative;
+	left: 255px;
+	top: -70px;
 }
 
 a {
