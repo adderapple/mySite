@@ -1,0 +1,19 @@
+{
+	"records": [
+	{
+		"Name" : "Mikelev Zyarfvski",
+		"City" : "Moscow",
+		"Country" : "Russia"
+	},
+	{
+		"Name" : "Andreas Smith",
+		"City" : "Washington",
+		"Country" : "America"
+	},
+	{
+		"Name" : "John Forbe",
+		"City" : "London",
+		"Country" : "UK"
+	}
+]
+}

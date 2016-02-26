@@ -1,3 +1,26 @@
+#widthfitter {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#contentwrapper {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.content {
+	width: 1500px;
+	position: relative;
+	margin: auto;
+	background-color:darkgrey;
+}
+
 #homebutton {
 	box-shadow: 0 8px 18px 4; 
 	background: url(homebutton.png);
@@ -22,19 +45,26 @@
 #about {
 	color: #00FF00;
 	text-align: center;
-	float: left;
-	left: 550px;
+	left: 450px;
 	position: absolute;
 	font-size: 50px;
 }
 
 #projects {
-	color: #00FF00;
-	text-align: center;
-	float: right;
-	right: 600px;
-	position: absolute;
-	font-size: 50px;
+	left: 100px;
+	position: relative;
+	width: 100px;
+}
+
+table, td, th {
+	border: 2px solid black;
+	border-collapse: collapse;
+	height: 150px;
+	text-align: left;
+	padding: 15px;
+}
+tr :hover {
+	background-color: grey;
 }
 
 #movingBlock {
